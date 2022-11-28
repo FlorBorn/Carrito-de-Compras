@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivero Las Bellas</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header> 
+        <div class="navegacion">
+            <div class="logo">
+                <img src="img/logo.png" alt="imagen-logo">
+            </div>
+
+            <div> <!--Inicio carrito--> 
+                <ul>
+                    <li class="submenu">
+                        <img class="icono-carrito " src="img/icono-carrito.png" alt="icono-carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a id="vaciar-carrito" class="boton" href="#">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div> <!--Fin carrito -->
+        </div>   
+
+        <div class="portada">
+            <div class="contenido-portada">
+                <h2>Tenemos las más <br>bellas y variadas plantas</h2>
+                <p>Todas a un precio exclusivo</p>
+            </div>
+        </div>
+    </header> <!--Fin portada y encabezado-->
+
+    <div class="under-cover"> <!--Inicio bajo portada-->
+        <div>
+            <p>Más de 5 mil variedades <br> de plantas</p>
+        </div>
+        <div>
+            <p>Te brindamos nuestro conocimiento para <br> que puedas cuidar de ellas</p>
+        </div>
+        <div>
+            <p>Conocé las más <br>vendidas</p>
+        </div>
+    </div>
+
+    <section>
+        <div>
+            <h1>Vivero Las Bellas</h1>
+        </div>
+
+        <div id="lista-cursos" class="four-columns">
+            <div class="card">
+                <img class="img-curso" src="img/bonsai.jpg" alt="imagen-bonsai">
+                <div class="info-card">
+                    <h3>Bonsai</h3>
+                    <p class="descuento">$2500 <span class="precio">$4000</span></p>
+                    <a class="boton agregar-carrito" data-id="1" href="#">Agregar al carrito</a>
+                </div>
+            </div> <!-- Fin card-->
+
+            <div class="card">
+                <img class="img-curso" src="img/cactus.jpg" alt="imagen-cactus">
+                <div class="info-card">
+                    <h3>Cactus</h3>
+                    <p class="descuento">$200 <span class="precio">$500</span></p>
+                    <a class="boton agregar-carrito" data-id="2" href="#">Agregar al carrito</a>
+                </div>
+            </div> <!-- Fin card-->
+
+            <div class="card">
+                <img class="img-curso" src="img/dalia.jpg" alt="imagen-dalia">
+                <div class="info-card">
+                    <h3>Dalia</h3>
+                    <p class="descuento">$800 <span class="precio">$1500</span></p>
+                    <a class="boton agregar-carrito" data-id="3" href="#">Agregar al carrito</a>
+                </div>
+            </div> <!-- Fin card-->
+
+            <div class="card">
+                <img class="img-curso" src="img/estrella-federal.jpg" alt="imagen-estrella-federal">
+                <div class="info-card">
+                    <h3>Estrella Federal</h3>
+                    <p class="descuento">$1000 <span class="precio">$2000</span></p>
+                    <a class="boton agregar-carrito" data-id="4" href="#">Agregar al carrito</a>
+                </div>
+            </div> <!-- Fin card-->
+
+            <div class="card">
+                <img class="img-curso" src="img/gazania.jpg" alt="imagen-gazania">
+                <div class="info-card">
+                    <h3>Gazania</h3>
+                    <p class="descuento">$500 <span class="precio">$2300</span></p>
+                    <a class="boton agregar-carrito" data-id="5" href="#">Agregar al carrito</a>
+                </div>
+            </div> <!-- Fin card-->
+
+            <div class="card">
+                <img class="img-curso" src="img/helecho.png" alt="imagen-helecho">
+                <div class="info-card">
+                    <h3>Helecho</h3>
+                    <p class="descuento">$700 <span class="precio">$1000</span></p>
+                    <a class="boton agregar-carrito" data-id="6" href="#">Agregar al carrito</a>
+                </div>
+            </div> <!-- Fin card-->
+
+            <div class="card">
+                <img class="img-curso" src="img/lavanda.jpg" alt="imagen-lavanda">
+                <div class="info-card">
+                    <h3>Lavanda</h3>
+                    <p class="descuento">$700 <span class="precio">$1400</span></p>
+                    <a class="boton agregar-carrito" data-id="7" href="#">Agregar al carrito</a>
+                </div>
+            </div> <!-- Fin card-->
+
+            <div class="card">
+                <img class="img-curso" src="img/lengua-de-suegra.jpg" alt="imagen-lengua-de-suegra">
+                <div class="info-card">
+                    <h3>Lengua de Suegra</h3>
+                    <p class="descuento">$1200 <span class="precio">$1700</span></p>
+                    <a class="boton agregar-carrito" data-id="8" href="#">Agregar al carrito</a>
+                </div>
+            </div> <!-- Fin card-->
+
+            <div class="card">
+                <img class="img-curso" src="img/margarita.png" alt="imagen-margarita">
+                <div class="info-card">
+                    <h3>Margarita</h3>
+                    <p class="descuento">$900 <span class="precio">$1500</span></p>
+                    <a class="boton agregar-carrito" data-id="9" href="#">Agregar al carrito</a>
+                </div>
+            </div> <!-- Fin card-->
+
+            <div class="card">
+                <img class="img-curso" src="img/orquidea.jpg" alt="imagen-orquidea">
+                <div class="info-card">
+                    <h3>Orquidea</h3>
+                    <p class="descuento">$1900 <span class="precio">$2500</span></p>
+                    <a class="boton agregar-carrito" data-id="10" href="#">Agregar al carrito</a>
+                </div>
+            </div> <!-- Fin card-->
+
+            <div class="card">
+                <img class="img-curso" src="img/palmera.png" alt="imagen-palmera">
+                <div class="info-card">
+                    <h3>Palmera</h3>
+                    <p class="descuento">$600 <span class="precio">$1300</span></p>
+                    <a class="boton agregar-carrito" data-id="11" href="#">Agregar al carrito</a>
+                </div>
+            </div> <!-- Fin card-->
+
+            <div class="card">
+                <img class="img-curso" src="img/suculentas.jpg" alt="imagen-suculentas">
+                <div class="info-card">
+                    <h3>Suculentas</h3>
+                    <p class="descuento">$400 <span class="precio">$800</span></p>
+                    <a class="boton agregar-carrito" data-id="12" href="#">Agregar al carrito</a>
+                </div>
+            </div> <!-- Fin card-->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="copyrigth">Todos los derechos reservados. Vivero Las Bellas 2022 &copy;</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
